@@ -26,8 +26,6 @@
     <!-- for parcle -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-     <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
-     <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
 </head> 
 
 <body>
@@ -39,7 +37,8 @@
 
     <!-- ******HEADER****** --> 
     <header class="header">
-        <div class="container">      
+        <div class="container">   
+            <img class="profile-image img-responsive pull-left wow fadeInLeft" src="assets/images/profile.png" alt="Joel Liu" />
             <div class="profile-content pull-left">
                 <h1 class="name  wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0s">Joel Liu</h1>
                 <h2 class="desc  wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.2s">Senior Ruby on Rails Engineer</h2>   
@@ -72,10 +71,6 @@ My experience is also augmented with knowledge in 3NF database normalization, us
 
                          
                         </div><!--//content-->
-                        <div class="calendar">
-                            <!-- Loading stuff -->
-                            Loading the data just for you.
-                        </div> 
                     </div><!--//section-inner-->                 
                 </section><!--//section-->
     
@@ -370,14 +365,6 @@ My experience is also augmented with knowledge in 3NF database normalization, us
     
     <script src="js/particles.js"></script>
     <script src="js/app.js"></script>
-    <!-- Prepare a container for your calendar. -->
-    <script
-        src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
-    >
-    </script>
-    <script>
-        GitHubCalendar(".calendar", "haojoel", { responsive: true });
-    </script>
 </body>
 </html> 
 
